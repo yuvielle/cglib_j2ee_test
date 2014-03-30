@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <root xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="note.xsd">
+        <model xs:id="shop_product">
+            <object xs:id="1">
+                <id>1</id>
+                <name>test1</name>
+                <descript>test5 descript1</descript>
+                <price>67.90</price>
+                <count>78</count>
+                <url>test.ru</url>
+                <images>
+                    <id>1</id>
+                    <id>8</id>
+                </images>
+            </object>
+        </model>
+        <model xs:id="shop_image">
+            <object xs:id="1">
+                <id>1</id>
+                <name>test image</name>
+                <url>http://test.ru</url>
+            </object>
+            <object xs:id="2">
+                <id>2</id>
+                <name>test image2</name>
+                <url>http://test.ru</url>
+            </object>
+            <object xs:id="8">
+                <id>8</id>
+                <name>test image8</name>
+                <url>http://test.ru</url>
+            </object>
+        </model>
+        <model xs:id="shop_user">
+            <object xs:id="1">
+                <id>1</id>
+                <firstname>testtt</firstname>
+                <lastname>yuyuyuyu</lastname>
+                <username>admin</username>
+                <password>1234</password>
+            </object>
+        </model>
+    </root>

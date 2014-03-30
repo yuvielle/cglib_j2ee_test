@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+        <model id="shop_product" xml:id="1">
+            <object xml:id="1">
+                <id>1</id>
+                <name>test1</name>
+                <descript>test5 descript1</descript>
+                <price>67.90</price>
+                <count>78</count>
+                <url>test.ru</url>
+                <images>
+                    <id>1</id>
+                    <id>8</id>
+                </images>
+            </object>
+        </model>
+        <model xml:id="shop_image">
+            <object xml:id="1">
+                <id>1</id>
+                <name>test image</name>
+                <uri>http://test.ru</uri>
+            </object>
+            <object xml:id="2">
+                <id>2</id>
+                <name>test image2</name>
+                <uri>http://test.ru</uri>
+            </object>
+            <object xml:id="8">
+                <id>8</id>
+                <name>test image8</name>
+                <uri>http://test.ru</uri>
+            </object>
+        </model>
+        <model xml:id="shop_user">
+            <object xml:id="1">
+                <id>1</id>
+                <firstname>testtt</firstname>
+                <lastname>yuyuyuyu</lastname>
+                <username>admin</username>
+                <password>1234</password>
+            </object>
+        </model>
+    </root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+        <shop_product>
+            <object_1>
+                <id>1</id>
+                <name>test1</name>
+                <descript>test5 descript1</descript>
+                <price>67.90</price>
+                <count>78</count>
+                <url>test.ru</url>
+                <images>
+                    <id>1</id>
+                    <id>8</id>
+                </images>
+            </object_1>
+            <object_2>
+                <id>2</id>
+                <name>test2</name>
+                <descript>test5 descript2</descript>
+                <price>45.70</price>
+                <count>71</count>
+                <url>test.ru</url>
+                <images>
+                    <id>1</id>
+                    <id>8</id>
+                </images>
+            </object_2>
+        </shop_product>
+        <shop_image>
+            <object_1>
+                <id>1</id>
+                <name>test image</name>
+                <url>http://test.ru</url>
+            </object_1>
+            <object_2>
+                <id>2</id>
+                <name>test image2</name>
+                <url>http://test.ru</url>
+            </object_2>
+            <object_8>
+                <id>8</id>
+                <name>test image8</name>
+                <url>http://test.ru</url>
+            </object_8>
+        </shop_image>
+        <shop_user>
+            <object_1>
+                <id>1</id>
+                <firstname>testtt</firstname>
+                <lastname>yuyuyuyu</lastname>
+                <username>admin</username>
+                <password>1234</password>
+            </object_1>
+        </shop_user>
+    </root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root">
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:complexType>
+        <xs:sequence>
+            <xs:element name="model">
+                <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="object">
+                        <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id"/>
+                            <xs:element name="name"/>
+                            <xs:element name="descript"/>
+                            <xs:element name="price"/>
+                            <xs:element name="count"/>
+                            <xs:element name="url"/>
+                            <xs:element name="images">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id"/>
+                                        <xs:element name="name"/>
+                                        <xs:element name="url"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="firstname"/>
+                            <xs:element name="lastname"/>
+                            <xs:element name="username"/>
+                            <xs:element name="password"/>
+                        </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>
