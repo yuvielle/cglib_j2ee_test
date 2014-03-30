@@ -226,6 +226,7 @@
           <content-type name="AIDL" enabled="true" />
           <content-type name="YAML" enabled="true" />
           <content-type name="Flex" enabled="true" />
+          <content-type name="Bash" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>
       </qualified-text-editor>
@@ -514,6 +515,12 @@
       <option name="RECURSIVE" value="false" />
       <option name="VERSION" />
     </GetOptions>
+  </component>
+  <component name="codelockplugin.LockingPlugin">
+    <LockedTreeManager>
+      <LockedElements />
+      <LockedRegions />
+    </LockedTreeManager>
   </component>
 </project>
 
